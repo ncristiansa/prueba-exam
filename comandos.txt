@@ -1,0 +1,10 @@
+php artisan key:generate
+1. Crear tablas
+php artisan make:migration create_users_table --create=users
+2. Migrar:
+php artisan migrate
+3. Crear vista
+4. Crear modelo Artista:
+php artisan make:model Artista
+5. Crear controlador
+php artisan make:controller ArtistaController
